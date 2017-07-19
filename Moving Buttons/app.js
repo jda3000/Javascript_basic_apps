@@ -15,6 +15,7 @@ function app() {
     
     //apply random numbers
     
+    
     this.style.left = offsetLeft + 'px';
     this.style.top = offsetTop + 'px';
     

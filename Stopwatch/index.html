@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Page Title</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <style>
+            body, .jumbotron { padding : 30px; }
+            .minutes { font-size: 70px; }
+            .seconds { font-size: 70px; }
+        </style>
+        
+        
+	</head>
+        
+
+	<body>
+        
+        <div class="jumbotron text-center">
+            <div class="timer">
+                <span class="minutes">00</span> . <span class="seconds">00</span>
+            </div>
+            <div class="controls">
+                <button class="btn btn-start btn-lg btn-primary">Start</button>
+                
+                <button class="btn btn-stop btn-lg btn-danger">Stop</button>
+                
+                <btn class=" btn btn-reset btn-link btn-block">Reset</btn>
+            </div>
+        </div>
+        
+        <div class='text-center' id="logArea">
+        </div>
+    
+    <script src="app.js"></script>
+
+	</body>
+</html>
