@@ -1,7 +1,6 @@
 // get everything needed
 
 const accordion = document.querySelector('.accordion');
-
 const items = accordion.querySelectorAll('li');
 const question = accordion.querySelectorAll('.question');
 
